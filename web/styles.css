@@ -141,7 +141,7 @@ figcaption {
 
 /* .img-bg */
 .img-bg {
-  background: hsla(var(--hue), 25%, 10%, .5);
+  background: transparent;
 }
 
 .card-front .img-bg {
@@ -202,6 +202,10 @@ li {
   text-align: center;
 
   position: relative;
+  background-color: #000000;
+  opacity: 0.9;
+  border-radius: 20px;
+  padding: 20px;
 }
 
 li:nth-child(2n) {
